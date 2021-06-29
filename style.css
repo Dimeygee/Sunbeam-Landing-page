@@ -1289,6 +1289,9 @@ header > div p:nth-child(1){
         display:block;
     }
 
+    .grid_1{
+        margin-bottom: 26px;
+    }
    
 }
 
