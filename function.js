@@ -20,16 +20,8 @@
         links.forEach(link => {
             link.addEventListener('click', addActive)
         })
-
-        resp_links.forEach(link => {
-            link.addEventListener('click', addActive)
-        })
-
         function addActive(e){
             links.forEach(link => {
-                link.classList.remove('active')
-            })
-            resp_links.forEach(link => {
                 link.classList.remove('active')
             })
             e.target.classList.add('active')
