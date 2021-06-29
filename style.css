@@ -28,8 +28,9 @@ nav{
 
 nav.active{
     position: fixed;
-    background: #3B3B3B;
-    z-index:9999;
+    background: #3b3b3bcc;
+    z-index:3;
+    padding:6px;
 }
 
 nav > div{
@@ -894,7 +895,7 @@ footer strong{
     color:#FFDF6D;
 }
 
-.active{
+.yel{
     color:#FFDF6D;
 }
 
