@@ -56,6 +56,12 @@ nav > div .logo_box{
     list-style:none;
     display:flex;
 }
+ul li a{
+    font-family: Ubuntu;
+    font-size:400;
+}
+
+
 
 .l_d ul li a {
     width:100%;
@@ -218,7 +224,7 @@ section.fir{
     background-position: center center;
     width:100%;
     position:absolute;
-    min-height:105vh;
+    min-height:100%;
 }  
 
 
@@ -713,6 +719,9 @@ section.fir{
     left:50%;
     top:63%;
     transform:translate(-50%,-50%);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .form_button{
@@ -837,6 +846,7 @@ footer{
     color:white;
     position: relative;
     z-index:-1;
+    font-family: Ubuntu;
 }
 
 footer li{
@@ -847,13 +857,8 @@ footer li{
 footer li a{
     text-decoration:none;
     color:white;
-    font-family: Ubuntu;
+    display: inline-block;
 }
-
-footer strong{
-    font-family: Ubuntu;
-}
-
 
 
 .copyright{
@@ -930,7 +935,7 @@ footer strong{
     height:100%;
     transform: translateX(-102%);
     transition:.2s ease-in-out;
-    
+   
 }
 
 .resp_menu  div{
@@ -955,18 +960,22 @@ footer strong{
 .resp_menu ul li{
     list-style: none;
     color:white;
+    
 }
 
 
 .resp_menu ul li a{
     text-decoration: none;
+    display: inline-block;
     color:white;
-   
+     font-family: Ubuntu;
+     font-weight: 300;
 }
 
 .resp_menu ul li a.active{
     color:#FFDF6D;
     font-family: Ubuntu;
+    font-weight: 900;
 }
 
 .yel{
@@ -1081,7 +1090,7 @@ footer strong{
         width:40px;
     }
   
-    header > div p:nth-child(2){
+    header > div:nth-child(1) p:nth-child(2){
         padding:10px 35px;
         margin-bottom:20px;
     }
