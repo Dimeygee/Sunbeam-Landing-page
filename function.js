@@ -6,6 +6,18 @@
     let header = document.querySelector('header')
     let nav = document.querySelector('nav')
 
+    let preloader = document.querySelector('#preloader')
+	
+	
+	
+	setTimeout(() => {
+		preloader.classList.add('isnotactive')
+		setTimeout(() => {
+			preloader.style.display = 'none'
+		},500)
+	},4000)
+	
+
  
     
 
