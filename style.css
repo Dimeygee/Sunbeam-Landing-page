@@ -186,12 +186,12 @@ header > div p:nth-child(1){
 
 header > div p:nth-child(2){
     font-weight: 500;
-    font-size: 12.8034px;
+    font-size: 16px;
     line-height: 22px;
 }
 
 .section{
-    min-height:105vh;
+    min-height:100vh;
 }
 
 section.fir{
@@ -231,7 +231,7 @@ section.fir{
 .sec_div2{
     background-color:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
     z-index:-1;
-    padding: 140px 100px 0 100px;
+    padding: 175px 100px 0 100px;
     font-family: Ubuntu;
 }
 
@@ -302,7 +302,7 @@ section.fir{
 
 .sec_d2{
     width:45%;
-    min-height:120vh;
+    min-height:100vh;
     background-color:#FFFAFB;
     position: relative;
 }
@@ -312,7 +312,7 @@ section.fir{
     height:78%;
     position: absolute;
     top:60px;
-    right:15px;
+    right:30px;
     z-index:2;
     background-image: url(./images/Frame\ 44.png);
     background-size: cover;
@@ -337,7 +337,7 @@ section.fir{
     background-color:#FFFAFB;
     width:55%;
     min-height:100vh;
-    padding:100px 100px 120px 100px;
+    padding:120px 100px;
     font-family: Ubuntu;
 }
 
@@ -366,7 +366,6 @@ section.fir{
 
 .section.thir{
     padding-top:66px;
-    padding-bottom:66px;
     background-color:#FFFEFA ;
 }
 
@@ -416,14 +415,12 @@ section.fir{
 
 .sec_one_content{
     width:55%;
-    min-height:100vh;
     padding:168px 226px 172px 134px;
     font-family: Ubuntu;
 }
 
 .sec_two_content{
     width:45%;
-    min-height:100vh;
     position: relative;
 }
 
@@ -861,6 +858,7 @@ footer li a{
 }
 
 
+
 .copyright{
     text-align:center;
     margin-top:44px;
@@ -1020,6 +1018,14 @@ footer strong{
     .sec_two_content *:nth-child(1) {
         left: 0; 
         width:100%;
+    }
+
+    .section.thir{
+        min-height: unset;
+    }
+
+    .sec_one_content, .sec_two_content{
+        min-height: unset;
     }
 
     .sec_two_content *:nth-child(2){
